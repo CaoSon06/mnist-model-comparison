@@ -1,0 +1,8 @@
+model,accuracy,f1_macro,f1_weighted,n_test,protocol_note
+knn,0.9705,,0.9705,10000,official test
+svm,0.9596,,0.9596,10000,official test
+random_forest,0.9477,,0.9477,10000,official test
+mlp,0.9757,0.9755,,7000,recombined then resplit; different test set
+cnn,0.9943,0.9943,,10000,official test
+resnet9,0.9948,0.9948,,10000,official test
+tinyvit,0.9783,0.9781,,10000,official test; original train-validation overlap
